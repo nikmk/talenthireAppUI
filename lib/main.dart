@@ -75,19 +75,19 @@ class _MyHomePageState extends State<MyHomePage> {
                     Stack(
                     children: <Widget>[
                       Container(
-                        padding: EdgeInsets.fromLTRB(25.0, 25.0, 5.0, 5.0),
+                        padding: EdgeInsets.fromLTRB(25.0, 25.0, 5.0, 6.0),
                         child: Text(
                           "You have",
                           style: TextStyle(
                             color:Colors.grey,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w800,
                             fontSize: 14.0,
 
                           )
                         )
                       ),
                       Container(
-                          padding: EdgeInsets.fromLTRB(25.0, 40.0, 5.0, 5.0),
+                          padding: EdgeInsets.fromLTRB(25.0, 40.0, 5.0, 25.0),
                           child: Text(
                               "206",
                               style: TextStyle(
